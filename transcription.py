@@ -50,3 +50,16 @@ def save_ass_file(transcription: dict, output_filename: str = "transcription.ass
         f.writelines(lines)
         
     return True
+
+def save_txt_file(transcription: dict, output_filename: str = "transcription.txt"):
+    lines = []
+    for segment in transcription["segments"]:
+        start = segment["start"]
+        text = segment["text"]
+        lines.append(f"{start}s\t{text}\n")
+        
+    with open(output_filename, "w", encoding="utf-8") as f:
+        f.truncate(0)
+        f.writelines(lines)
+        
+    return True
