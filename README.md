@@ -2,7 +2,7 @@
 1. Paina tältä sivulta vihreästä napista `Code` ja valitse `Download ZIP`. Tai käytä linkkiä [tästä](https://github.com/Tumppi066/transcription/archive/refs/heads/main.zip).
 2. Asenna python (3.11 tai 3.12)
 3. Asenna openai-whisper (`pip install openai-whisper`)
-4. Siirrä .mp3 tiedosto tähän kansioon ja kirjoita (`python main.py tiedostonimi.mp3`)
+4. Siirrä .mp3 tiedosto kansioon jossa `main.py` on ja kirjoita konsoliin samassa kansiossa (`python main.py tiedostonimi.mp3`)
 
 ### Käyttöohjeet
 Sovellus kirjoittaa kaksi eri tiedostoa. 
