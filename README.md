@@ -10,7 +10,8 @@ Sovellus kirjoittaa kaksi eri tiedostoa.
 - `transcription.ass` on tekstitys formaatti jonka voi esimerkiksi siirtää VLC:n kautta videon päälle.
 
 ### Huomioita
-- Sovellus ei ota yhteyttä internettiin mallin lataamisen jälkeen. Malli voidaan myös tallentaa kansioon etukäteen, jotta nettiä ei tarvita ollenkaan.
-- Sovellus ei tällä hetkellä ota äänistä puhujaa, mutta sen voi lisätä.
-- Sovellus ei tällä hetkellä tue tiedostoja joissa puhutaan monilla eri kielillä, tämänkin voi lisätä myöhemmin.
-- Sovelluksella tulee olemaan käyttöliittymä ja normaalintyylinen .exe tiedosto jos tätä tarvitsee tehdä pidemmälle.
+- **Sovellus ei ota yhteyttä internettiin mallin lataamisen jälkeen**. Malli voidaan myös tallentaa kansioon etukäteen, jotta nettiä ei tarvita ollenkaan.
+- **Sovellus ei tällä hetkell tiedä kuka puhuu**. Tämän lisään myöhemmin tarpeen vaatiessa.
+- **Sovellus ei tällä hetkellä tue äänitteitä, joissa puhutaan monilla eri kielillä.**. Tämänkin voi lisätä myöhemmin.
+- Sovellukselle voidaan tehdä käyttöliittymä ja normaalintyylinen .exe tiedosto, jos tätä tarvitsee tehdä pidemmälle.
+- **Koska sovellus käyttää Whisper malleja tietokoneella eikä verkossa, toimii se vain tietokoneissa, joissa on yli 8gb RAM muistia.** Riippuen tietokoneen prosessorista aika joka litteroinnin prosessoimiseen menee voi vaihdella. Se voi olla useita kymmeniä minuutteja. Yleisesti aika on äänitteen pituus kertaa kaksi.
