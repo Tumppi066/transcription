@@ -4,9 +4,11 @@ model: whisper.Whisper = None
 
 def load_model():
     global model
+    print("Loading OpenAI model...")
     model = whisper.load_model("turbo")
     
 def transcribe(audio_path: str) -> dict:
+    print("Transcribing file...")
     return model.transcribe(audio_path)
 
 def get_ass_format_time(seconds: float) -> str:
