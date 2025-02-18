@@ -1,7 +1,8 @@
 ### Asennusohjeet
-1. Asenna python (3.11 tai 3.12)
-2. Asenna openai-whisper (`pip install openai-whisper`)
-3. Siirrä .mp3 tiedosto tähän kansioon ja kirjoita (`python main.py tiedostonimi.mp3`)
+1. Paina tältä sivulta vihreästä napista `Code` ja valitse `Download ZIP`. Tai käytä linkkiä [tästä](https://github.com/Tumppi066/transcription/archive/refs/heads/main.zip).
+2. Asenna python (3.11 tai 3.12)
+3. Asenna openai-whisper (`pip install openai-whisper`)
+4. Siirrä .mp3 tiedosto tähän kansioon ja kirjoita (`python main.py tiedostonimi.mp3`)
 
 ### Käyttöohjeet
 Sovellus kirjoittaa kaksi eri tiedostoa. 
